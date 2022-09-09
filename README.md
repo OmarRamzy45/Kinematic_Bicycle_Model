@@ -49,8 +49,8 @@ you can notice that for the same input the front and rear steering mechanisms wi
 ![Screenshot_1](https://user-images.githubusercontent.com/100040470/189375062-e3c91206-90cb-449c-a3f9-52f8b0916567.png)
 
 ### Model Equations:
-#### $V_x$ = $vcos{(\beta - \theta)}$
-#### $V_y$ = $vsin{(\beta - \theta)}$
+#### $V_x$ = $vcos{(\theta - \beta)}$
+#### $V_y$ = $vsin{(\theta - \beta)}$
 ### $\dot{\theta}$ = $(-v cos(\beta)tan(\delta)) \over L $
 #### $\beta  =$ $tan^-1($ $-l_f tan(\delta) \over L$ $)$
 
