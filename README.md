@@ -53,6 +53,12 @@ Rear steering is the same like front steering but the difference is that the rea
 ### $\dot{\theta}$ = $(-v cos(\beta)tan(\delta)) \over L $
 #### $\beta  =$ $tan^-1($ $-l_f tan(\delta) \over L$ $)$
 
+### Model Inputs:
+- Steering angle $\delta$
+- Vehicle velocity $v$
+- time of simulation $t$
+- $l_r$ from yaml file
+
 ### Simulation
 - velocity = 5
 - steering angle = 30 $degrees$
