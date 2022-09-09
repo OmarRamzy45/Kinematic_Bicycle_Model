@@ -1,0 +1,4 @@
+<launch>
+<rosparam command ="load" file="$(find bicycle_model)/config/data.yaml" />
+<node name="turtle_bicycle" pkg="bicycle_model" type="rear_steering.py" output ="screen"/>
+</launch>
