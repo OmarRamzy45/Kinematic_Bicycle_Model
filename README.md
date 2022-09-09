@@ -31,12 +31,14 @@ In the image above you can find the geometry of the model which I relied on to d
 - simulation time = 5 $seconds$
 
 - Video:
+
 https://user-images.githubusercontent.com/100040470/189362904-06337fbc-dbe1-450f-bea5-3cddfe5cff1e.mp4
 
 #### Decaing Steering angle
 here I added a new feature to me model where the steering angle is not constant instead it's deacing with time until it gets to zero and the vehicle moves in straight line.
 
 - Video:
+
 https://user-images.githubusercontent.com/100040470/189363702-c0330d0b-358e-4cd9-bd25-b56cfb2ba21f.mp4
 
 - ## Rear Steering
@@ -56,12 +58,11 @@ Rear steering is the same like front steering but the difference is that the rea
 
 -Video:
 
-
-
 https://user-images.githubusercontent.com/100040470/189364142-e96aa4b7-e096-4215-8af4-2105ae61ed7a.mp4
 
 #### Decaing Steering angle
 - Video:
+
 https://user-images.githubusercontent.com/100040470/189364379-425bc851-20b3-40bc-9e1a-4fb60187d52c.mp4
 
 That's all, Hope you found this useful. Thank you for reading :)
