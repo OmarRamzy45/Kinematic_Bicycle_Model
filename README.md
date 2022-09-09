@@ -10,6 +10,7 @@ So, Let's start.
 - ## Front Steering
 Starting with the front steering model We will consider the point to be analyzed on the vehicle is at its center of gravity.
 Knowing that all point on the vehicle moves about the Instantaneous Center of Rotation ( ICR ).
+
 ![front](https://miro.medium.com/max/940/1*WKEsm54kLK2thpYlxii14g.png)
 
 In the image above you can find the geometry of the model which I relied on to derive all the following equations.
