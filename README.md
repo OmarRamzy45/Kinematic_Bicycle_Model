@@ -10,7 +10,7 @@ So, Let's start.
 - ## Front Steering
 Starting with the front steering model We will consider the point to be analyzed on the vehicle is at its center of gravity.
 Knowing that all point on the vehicle moves about the Instantaneous Center of Rotation ( ICR ).
-![alt text](https://miro.medium.com/max/940/1*WKEsm54kLK2thpYlxii14g.png)
+![front](https://miro.medium.com/max/940/1*WKEsm54kLK2thpYlxii14g.png)
 
 In the image above you can find the geometry of the model which I relied on to derive all the following equations.
 
@@ -39,7 +39,7 @@ Video:
 - ## Rear Steering
 Rear steering is the same like front steering but the difference is that the rear wheels are the moving ones. 
 
-![alt text](https://github.com/OmarRamzy45/Kinematic_Bicycle_Model/blob/master/Rear_Steering_crop.png?raw=true)
+![rear](https://github.com/OmarRamzy45/Kinematic_Bicycle_Model/blob/master/Media/Rear_Steering_crop.png?raw=true)
 
 #### $V_x$ = $vcos{(\beta - \theta)}$
 #### $V_y$ = $vsin{(\beta - \theta)}$
