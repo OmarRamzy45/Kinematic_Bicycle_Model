@@ -39,7 +39,7 @@ Video:
 - ## Rear Steering
 Rear steering is the same like front steering but the difference is that the rear wheels are the moving ones. 
 
-![alt text](https://github.com/OmarRamzy45/Kinematic_Bicycle_Model/blob/master/Rear Steering_crop.png?raw=true)
+![alt text](https://github.com/OmarRamzy45/Kinematic_Bicycle_Model/blob/master/Rear_Steering_crop.png?raw=true)
 
 #### $V_x$ = $vcos{(\beta - \theta)}$
 #### $V_y$ = $vsin{(\beta - \theta)}$
