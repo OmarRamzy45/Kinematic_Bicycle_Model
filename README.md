@@ -44,6 +44,7 @@ https://user-images.githubusercontent.com/100040470/189363702-c0330d0b-358e-4cd9
 
 - ## Rear Steering
 Rear steering is the same like front steering but the difference is that the rear wheels are the moving ones. 
+you can notice that for the same input the front and rear steering mechanisms will behave opposite to each others.
 
 ![rear](https://github.com/OmarRamzy45/Kinematic_Bicycle_Model/blob/master/Media/Rear_Steering_crop.png?raw=true)
 
