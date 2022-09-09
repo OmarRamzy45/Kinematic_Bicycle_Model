@@ -63,8 +63,8 @@ class TurtleBicycleModel:
             
             self.delta += self.steering_decay
             
-            x_dot =  self.v * math.cos(self.beta - self.pose.theta )
-            y_dot = self.v * math.sin(self.beta - self.pose.theta)
+            x_dot =  self.v * math.cos(self.pose.theta - self.beta)
+            y_dot = self.v * math.sin(self.pose.theta - self.beta)
             theta_dot = -1 * (self.v / self.L) * (math.cos(self.beta) * math.tan(self.delta))  
 
             self.vel_msg.linear.x = x_dot
@@ -91,3 +91,5 @@ if __name__ == '__main__':
     model = TurtleBicycleModel()
     model.set_paramters()
     model.move()
+    print("Time is over!!")
+    
