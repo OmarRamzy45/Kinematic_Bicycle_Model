@@ -18,7 +18,7 @@ In the image above you can find the geometry of the model which I relied on to d
 #### $V_x$ = $vcos{(\theta + \beta)}$
 #### $V_y$ = $vsin{(\theta + \beta)}$
 ### $\dot{\theta}$ = $v cos(\beta)tan(\delta) \over L $
-### $ \beta$ = $tan^-1($ $l_r tan(\delta) \over L$$)$
+### $\beta  =$ $tan^-1($ $l_r tan(\delta) \over L$ $)$
 ### Model Inputs:
 - Steering angle $\delta$
 - Vehicle velocity $v$
@@ -39,9 +39,9 @@ Video:
 - ## Rear Steering
 Rear steering is the same like front steering but the difference is that the rear wheels are the moving ones. 
 
-![Rear_steer](Media/Rear Steering_crop.png)
+![alt text](Media/Rear Steering_crop.png)
 
 #### $V_x$ = $vcos{(\beta - \theta)}$
 #### $V_y$ = $vsin{(\beta - \theta)}$
-### $\dot{\theta}$ = $ -v cos(\beta)tan(\delta) \over L $
-#### $ \beta$ = $tan^-1($ $- l_f tan(\delta) \over L$$)$
+### $\dot{\theta}$ = $(-v cos(\beta)tan(\delta)) \over L $
+#### $\beta  =$ $tan^-1($ $-l_f tan(\delta) \over L$ $)$
