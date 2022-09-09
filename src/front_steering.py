@@ -8,6 +8,7 @@ from geometry_msgs.msg import Twist
 import time
 import numpy as np
 
+# defining a Class for our model
 class TurtleBicycleModel:
   
     def __init__(self):
@@ -15,23 +16,24 @@ class TurtleBicycleModel:
         self.x = 0
         self.y = 0
         self.theta = 0
-        self.lr = rospy.get_param("/rear_length")
+        self.lr = rospy.get_param("/rear_length")  # uploading param form yaml file
         self.lf = rospy.get_param("/front_length")
         self.L = self.lr + self.lf
         self.v=0
         self.delta=0
         self.sample_time=0
         self.beta=0
-        self.pose = Pose()
+        self.pose = Pose()  # defining msg types based on turtlesim topic
         self.vel_msg = Twist()
 
+        # Creating node, publisher and subscriber
         rospy.init_node('turtle_bicycle', anonymous=True)
         self.velocity_publisher = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=10)
         self.pose_subscriber = rospy.Subscriber('/turtle1/pose', Pose, self.update_pose)
         self.rate = rospy.Rate(10)
 
     def set_paramters(self):
-
+        # function to update our variables from user input values
         print("Welcome! :) \n")
         self.v = float(input("enter your speed: "))
         self.delta = np.deg2rad(float(input("enter the steering angle in (degrees): ")))
@@ -48,11 +50,12 @@ class TurtleBicycleModel:
         yaw=self.pose.theta  
   
     def move(self):
-
+        # setting a specific time for the loop to be excuted
         t_end = time.time() + self.sample_time
         
         while time.time() < t_end :
-
+            
+            # checking for flag to see if steering decay or not and set the decay rate
             if (self.flag == 'y'and self.delta >0):
                 self.steering_decay = -0.001
                 print("steering angle is: ", round(np.rad2deg(self.delta),4), "Degrees")
