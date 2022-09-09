@@ -47,6 +47,7 @@ Rear steering is the same like front steering but the difference is that the rea
 
 ![rear](https://github.com/OmarRamzy45/Kinematic_Bicycle_Model/blob/master/Media/Rear_Steering_crop.png?raw=true)
 
+### Model Equations:
 #### $V_x$ = $vcos{(\beta - \theta)}$
 #### $V_y$ = $vsin{(\beta - \theta)}$
 ### $\dot{\theta}$ = $(-v cos(\beta)tan(\delta)) \over L $
