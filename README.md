@@ -57,7 +57,7 @@ Rear steering is the same like front steering but the difference is that the rea
 - Steering angle $\delta$
 - Vehicle velocity $v$
 - time of simulation $t$
-- $l_r$ from yaml file
+- $l_f$ from yaml file
 
 ### Simulation
 - velocity = 5
